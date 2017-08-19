@@ -10,4 +10,4 @@ In this small project I created machine learning models using python step-by-ste
 The problem solved by this small project is about classification of iris flowers (e.g. <a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">the iris dataset</a>). I'm done looking at two types of plots data:
 
 1. Univerate plots to better understand each attribute, including box-whisker plots and histograms
-2. Multivariate plots to better understand the relationships between attributes, including scatter plot matrik
+2. Multivariate plots to better understand the relationships between attributes, including scatter plot matrix
