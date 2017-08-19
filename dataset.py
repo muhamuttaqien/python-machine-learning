@@ -1,5 +1,5 @@
 import pandas
-from pandas.tools.plotting import scatter_matrix
+from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 from sklearn import model_selection
 from sklearn.metrics import classification_report
@@ -14,20 +14,21 @@ from sklearn.svm import SVC
 
 print("# Load dataset")
 
+# from the UCI Machine Learning repository
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
 
-print("# shape")
+print("# shape (dimensions of dataset)")
 print(dataset.shape)
 
-print("# head")
+print("# head (peek at the data)")
 print(dataset.head(20))
 
-print("# descriptions")
+print("# descriptions (statistical summary)")
 print(dataset.describe())
 
-print("# class distribution")
+print("# class distribution (50 or 30% of the dataset)")
 print(dataset.groupby('class').size())
 
 print("# box and whisker plots")
