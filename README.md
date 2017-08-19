@@ -7,4 +7,5 @@ In this project you will try to create machine learning models using python step
 2. Load a dataset and try to understand its structure using statistical summaries and data visualization
 3. Create 6 machine learning models and then pick the best and build confidence that the accuracy is realible
 
-Let's get started!
+
+So let's get started!
