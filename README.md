@@ -13,4 +13,4 @@ The problem solved by this small project is about classification of iris flowers
 2. Multivariate plots to better understand the relationships between attributes, including scatter plot matrix
 
 
-The project doesn't cover all of the steps in a machine learning project because of focus on the key four steps. Namely, loading data, looking at the data, evaluating some most common algorithms and making some prediction (not including data preparation and result improvement tasks).
+The project doesn't cover all of the steps in a machine learning project because of focusing on the four key steps. Namely, loading data, looking at the data, evaluating most common algorithms and making some prediction (not including data preparation and result improvement tasks).
