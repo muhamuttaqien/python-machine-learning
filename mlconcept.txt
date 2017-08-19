@@ -1,0 +1,189 @@
+CONCEPT OF ML (REMEMBER)
+
+
+— MY DOMAIN
+AI (AI Principles, Python & Machine Learning, Big Data)
+GIS (GIS Principles, Remote Sensing, Spatial Data Analysis)
+IoT (Embedded Systems, Arduino Platform, Robotics)
+
+“A breakthrough in machine learning would be worth ten Microsofts.”
+— Bill Gates, Former Chairman, Microsoft
+
+
+MACHINE LEARNING is getting computers to program themselves. If programming is all about automation, then machine learning is automating the process of automation.
+
+Writing software is the bottleneck, we don’t have enough good developers. Let the data do the work instead of people. Machine learning is the way to make programming scalable. Data and output is run on the computer to create a program and this program can be used in traditional programming.
+
+Machine learning is like farming. Seeds is the (ML) algorithms, nutrients is the data, the farmer is you and plants is the programs.
+
+In fact it is probably not about one technique for everything. It is probably a bunch of techniques or even combination of those techniques. There are tens of thousands of machine learning algorithms and hundreds of new algorithms are developed every year.
+
+Every machine learning algorithm has three components. All are combinations of these three components. A framework for understanding all algorithms.
+
+1. Representation: how to represent knowledge, including decision trees, rules, model and others.
+2. Evaluation: the way to evaluate candidate programs (hypotheses), including accuracy, prediction, probability and others.
+3. Optimization: the way candidate programs are generated known as the search process.
+
+
+There are four types of machine learning methods (not problems nor techniques):
+
+1. Supervised learning: also called inductive learning. Training data includes desired outputs (label). This is spam this is not, learning is supervised. Problems including classification, regression and probability estimation. This is useful in cases where a label is available for a certain dataset.
+2. Unsupervised learning: training data doesn’t include desired outputs (label). Example is clustering. It is hard to tell what is good learning and what is not. This is useful in cases where the challenge is to discover implicit relationships in a given unlabeled dataset.
+3. Semi-supervised learning: training data includes a few desired outputs.
+4. Reinforcement learning: later learn how good the decision was. Over time, the algorithm changes its strategy to learn better and achieve the best reward. The rewards from a sequence of actions. AI types like it, it is the most ambitious type of learning. Falls between these 2 extremes — supervised and unsupervised.
+
+Supervised learning is the most mature, the most studied and the type of learning used by most machine learning algorithms. Learning with supervision is much easier than learning without supervision.
+
+A machine learning project may not be linear, but it has a number of well known steps:
+
+1. Define problem
+2. Prepare data
+3. Evaluate algorithms
+4. Improve results
+5. Present results
+
+—
+
+Machine learning systems are made up of three major parts, which are:
+1. Model: the system that makes predictions or identifications
+2. Parameters: the signals or factors used by the model to form its decisions
+3. Learner: the system that adjust the parameters - and in turn the model - by looking at differences in predictions versus actual outcome
+
+MODEL & PARAMETERS
+
+Everything starts with the model, a prediction that the machine learning system will use (expressed by mathematical equation and form a trend line of what’s expected). The model initially has to be given to the system by a human being, rather than machine itself.
+
+The model itself depends on the parameters used (such us hour) to make its calculations and will be entered by real life information. Information given to a machine learning system is often called “training set” or “training data”.
+
+source: https://martechtoday.com/how-machine-learning-works-150366
+
+LEARNER
+
+Training data is used by the learner in the machine learning system to train itself to create a better model. The learner looks at the scores and see how far off they were from the model. It then uses more math to adjust the initial assumptions. The new prediction is reworked so that more study time is projected to earn that perfect score. Simply to understand that the learner makes very small adjustments to the parameters to refine the model and then the system is run again with a new set of life information (scores, training data). Those real scores are compared against the revised model by the learner. If successful, the scores will be closer to the prediction.
+
+CYCLE
+
+It is not a one-shot process, it is a cycle. The cycle will keep repeating until there is a high degree of confidence in the ultimate model. It is known as ‘“gradient descent or learning” concept. According wikipedia, it is a method for minimizing an objective function that tries to find minima or maxima by iteration. Google stressed that it as a big part of machine learning. It means that the system makes those little adjustments over and over, until it gets things right. Google likened it to climbing down a steep mountain. You don’t want to jump or run, because that’s dangerous. It takes a long time for machine to learn, to go through all these steps. As our computers have gotten faster and bigger, machine learning that seemed impossible years ago is now becoming almost commonplace. So the real change has been the computing horsepower.
+
+MUST-UNDERSTOOD PROBLEM
+
+1. Classification
+
+Identifying to which category an object belongs to. Application can be spam detection and image recognition. Algorithms: SVM (support vector machines), Nearest neighbors, Random forest.
+
+2. Regression
+
+Predicting a continuous-valued attribute associated with an object. Application can be drug response, stock prices. Algorithms: SVR, Ridge regression, Lasso.
+
+3. Clustering
+
+Automatic grouping of similar objects into sets. Applications can be customer segmentation, grouping experiment outcomes. Algorithms: K-Means, Spectral clustering, Mean-shift.
+
+4. Dimensionality reduction
+
+Reducing the number of random variables to consider. Applications can be visualization, increased efficiency. Algorithms: PCA, feature selection, non-negative matrix factorization.
+
+5. Model selection
+
+Comparing, validating and choosing parameters and models. Goal is to improve accuracy via parameter tuning. Modules: grid search, cross validation, metrics.
+
+6. Preprocessing
+
+Feature extraction and normalization. Application can be transforming input data such as text for use with machine learning algorithms. Modules: preprocessing, feature extraction.
+
+
+MUST-UNDERSTOOD ALGORITHM TECHNIQUES
+
+
+1. Naive Bayes Classification (NBC)
+
+It would be difficult and practically impossible to classify a web page, a document, an email or any other lengthy text notes manually. This is where Naive Bayes Classifier machine learning algorithm comes to the rescue. A classifier is a function that allocates a population’s element value from one of the available categories. For instance, Document Categorization, Sentiment Analysis and Email Spam Filtering are popular applications of NBC algorithm. Spam filter here, is a classifier that assigns a label “spam” or “not spam” to all the emails.
+
+NBC is amongst the most popular learning method grouped by similarities, that works on the popular Bayes Theorem of Probability — to build machine learning models particularly for disease prediction and document classification. It is a simple classification of words based on Bayes Probability Theorem for subjective analysis of content.
+
+Sentiment Analysis is used at Facebook to analyse status updates expressing positive or negative emotions. Document Categorization is used at Google for indexing documents and find relevancy scores i.e. the PageRank. PageRank mechanism considers the pages marked as important in the databases that were parsed and classified using a document classification technique. Naive Bayes Algorithm is also used for classifying news articles about Technology, Entertainment, Sports, Politics etc. Email Spam Filtering is used at Google Mail to classify your emails as Spam or Not Spam.
+
+
+2. K-means Clustering (KC)
+
+K-means is a popularly used unsupervised machine learning algorithm for cluster analysis. K-means is a non-deterministic and iterative method. The algorithm operates on a given data set through pre-defined number of cluster, k. The output of K-means algorithm is K clusters with inout data partitioned among the clusters.
+
+For instance, let’s consider K-means clustering for Wikipedia Search results. The search term “Jaguar” on Wikipedia will return all pages containing the word Jaguar which can refer to Jaguar as a Car, Jaguar as Mac OS version and Jaguar as an Animal. K-means clustering algorithm can be applied to group the webpages that talk about similar concepts. So, the algorithm will group all web pages that talk about Jaguar as an Animal into one cluster, Jaguar as a Car into another cluster and so on.
+
+K-means Clustering algorithm is used by most of the search engines like Yahoo, Google to cluster web pages by similarity and identify the ‘relevance rate’ of search results. This helps search engines reduce the computational time for the users.
+
+
+3. Support Vector Machine (SVM) Learning
+
+Support Vector Machine is a supervised machine learning algorithm for classification or regression problems where the dataset teaches SVM about the classes so that SVM can classify any new data. It works by classifying the data into different classes by finding a line (hyperplane) which separates the training data set into classes. As there are many such linear hyperplanes, SVM algorithm tries to maximize the distance between the various classes that are involved and this is referred as margin maximization. If the line that maximizes the distance between the classes is identified, the probability to generalize well to unseen data is increased. SVM’s are classified into two categories, including Linear and Non-liner SVM’s.
+
+SVM is commonly used for face detection. Also, for stock market forecasting by various financial institutions. For instance, it can be used to compare the relative performance of the stocks when compared to performance of other stocks in the same sector. The relative comparison of stocks helps manage investment making decisions based on the classifications made by the SVM learning algorithm.
+
+
+4. Apriori Machine (AM) Learning
+
+Apriori algorithm is an unsupervised machine learning algorithm that generates association rules from a given data set. Association rule implies that if an item A occurs, then item B also occurs with a certain probability. Most of the association rules generated are in the IF_THEN format. For example, If people buy an iPad THEN they also buy an iPad Case to protect it. For the algorithm to derive such conclusions, it first observes the number of people who bought an iPad Case while purchasing an iPad. This way a ration is derived like out of the 100 people who purchased an iPad, 85 people also purchased an iPad Case.
+
+Apriori algorithm is used for detecting adverse drug reactions and analyzing association on healthcare data like-the drugs taken by patients, characteristics of each patient, adverse ill-effects patients experience, initial diagnosis etc. This analysis produces association rules that help identify the combination of patient characteristics and medications that lead to adverse side effects of the drugs. 
+
+Then market basket analysis. Many e-commerce giants like Amazon use AM to draw data insights on which products are likely to be purchased together and which are most responsive to promotion. For example, a retailer might use AM to predict that people who buy sugar and flour are likely to buy eggs to bake a cake.
+
+Lastly, Auto-Complete Applications like what Google owns is another popular application of AM wherein - when the user types a word, the search engine looks for other associated words that people usually type after a specific word.
+
+
+5. Linear Regression Machine (LRM) Learning
+
+Linear Regression algorithm shows the relationship between 2 variables and how the change in one variables impacts the other. The algorithm shows the impact on the dependent variable on changing the independent variable. The independent variables are referred as explanatory variables, as they explain the factors the impact the dependent variable. Dependent variable is often referred to as the factor of interest or predictor. LRM is one of the most interpretable machine learning algorithms, making it easy to explain to others, easy of use as it requires minimal tuning and mostly widely used machine learning technique that runs fast.
+
+LRM algorithm is used for estimating sales finding great use in business, for sales forecasting based on the trends. If a company observes steady increase in sales every month - a linear regression analysis of the monthly sales data helps the company forecast sales in upcoming months.
+
+Also, LRM algorithm helps for risk assessment involved in insurance or financial domain. A health insurance company can do a linear regression analysis on the number of claims per customer against age. This analysis helps insurance companies find, that older customers tend to make more insurance claims. Such analysis results play a vital role in important business decisions and are made to account for risk.
+
+
+6. Decision Tree Machine (DTM) Learning
+
+It is a graphical representation that makes use of branching methodology to exemplify all possible outcomes of a decision based on certain conditions. It helps make decision under uncertainty and help you improve communication as they present a visual representation of a decision situation. It is instinctual and can be explained to anyone with ease. People from a non-technical background, can also decipher the hypothesis drawn from a decision tree, as they are self-explanatory.
+
+For instance, you are making a weekend plan to visit the best restaurant in town as your parents are visiting but you are hesitant in making a decision on which restaurant to choose. Whenever you want to visit a restaurant you ask your friend Tyrion if he thinks you will like a particular place. To answer your question, Tyrion first has to find out, the kind of restaurants you like. You give him a list of restaurants that you have visited and tell him whether you liked each restaurant or not (giving a labelled training dataset). When you ask Tyrion that whether you will like a particular restaurant R or not, he asks you various questions like “Is “R” a roof top restaurant?”, “Dose restaurant “R” serve Italian cuisine?”, “Does R have live music?”, “Is restaurant R open till midnight?” and so on. Tyrion asks you several informative questions to maximize the information gain and gives you YES or NO answer based on your answers to the questionnaire. Here Tyrion is a decision tree for your favorite restaurant preferences.
+
+Types of Decision Trees are classification and regression trees. The drawback is the more the number of decisions in a tree, less is the accuracy of any expected outcome. Applications of DTM are: in finance for option pricing, remote sensing for pattern recognition based on decision trees, banks to classify loan applicants by their probability of defaulting payments, Gerber Product, a popular baby product company, used decision tree machine learning algorithm to decide weather they should continue using the plastic PVC in their products, Rusk University Medical Centre has developed a tool named Guardian that uses a decision tree machine learning algorithm to identify at-risk patients and disease trends.
+
+
+7. Random Forests Machine (RFM) Learning
+
+Let’s continue with the same example that we used in decision trees, to explain how Random Forest Machine Learning Algorithm works. Tyrion is a decision tree for your restaurant preferences. However, Tyrion being a human being does not always generalize your restaurant preferences with accuracy. To get more accurate restaurant recommendation, you ask a couple of your friends and decide to visit the restaurant R, if most of them say that you will like it. Instead of just asking Tyrion, you would like to ask Jon Snow, Sandor, Bronn and Bran who vote on whether you will like the restaurant R or not. This implies that you have built an ensemble classifier of decision trees - also known as a forest.
+
+You don’t want all your friends to give you the same answer - so you provide each of your friends with slightly varying data. You are also not sure of your restaurant preferences and are in a dilemma. You told Tyrion that you like Open Roof Top restaurants but maybe, just because it was summer when you visited the restaurant you could have liked it then. You may not be a fan of the restaurant during the chilly winters. Thus, all your friends should not make use of the data point that you like open roof top restaurants, to make their recommendations for your restaurant preferences.
+
+By providing your friends with slightly different data on your restaurant preferences, you make your friends ask you different questions at different times. In this case just by slightly altering your restaurant preferences, you are injecting randomness at model level (unlike randomness at data level in case of decision trees). Your group of friends now form a random forest of your restaurant preferences.
+
+Random Forest is the go to machine learning algorithm that uses a bagging approach to create a bunch of decision trees with random subset of the data. A model is trained several times on random sample of the dataset to achieve good prediction performance from the random forest algorithm. In this ensemble learning method, the output of all the decision trees in the random forest, is combined to make the final prediction. The final prediction of the random forest algorithm is derived by polling the results of each decision tree or just by going with a prediction that appears the most times in the decision trees.
+
+For instance, in the above example - if 5 friends decide that you will like restaurant R but only 2 friends decide that you will not like the restaurant then the final prediction is that, you will like restaurant R as majority always wins.
+
+Why use RFM? There are many good open source, free implementations of the algorithm available in Python and R, it maintains accuracy when there is missing data and is also resistant to outliers, simple to use as the basic random forest algorithms can be implemented with jus a few lines of code.
+
+Advantages of using RFM? Random forest is one of the most effective and versatile machine learning algorithm for wide variety of classification and regression tasks, as they are more robust to noise, this algorithm runs efficiently on large databases, has higher classification accuracy. It is difficult to build a bad random forest. 
+
+Drawbacks of using RFM? They might be easy to use but analyzing them theoretically, is difficult. Large number of decision trees in the random forest can slow down the algorithm in making real-time predictions.
+
+Applications of RFM?
+
+Random Forest algorithms are used by banks to predict if a loan applicant is a likely high risk. They are used in the automobile industry to predict the failure or breakdown of a mechanical part. These algorithms are used in the healthcare industry to predict if a patient is likely to develop a chronic disease or not. They can also be used for regression tasks like predicting the average number of social media shares and performance scores, recently, the algorithm has also made way into prediction patterns in speech recognition software and classifying images and texts.
+
+
+8. Logistic Regression
+
+The name of this algorithm could be a little confusing in the sense that Logistic Regression machine learning algorithm is for classification tasks and not regression problems. The name ‘Regression’ here implies that a linear model is fit into the feature space. This algorithm applies a logistic function to a linear combination of features to predict the outcome of a categorical dependent variable based on predictor variables.
+
+The odds or probabilities that describe the outcome of a single trial are modeled as a function of explanatory variables. Logistic regression algorithms helps estimate the probability of falling into a specific level of the categorical dependent variable based on the given predictor variables.
+
+Just suppose that you want to predict if there will be a snowfall tomorrow in New York. Here the outcome of the prediction is not a continuous number because there will either be snowfall or no snowfall and hence linear regression cannot be applied. Here the outcome variable is one of the several categories and using logistic regression helps.
+
+Based on the nature of categorical response, logistic regression is classified into 3 types: 1) Binary logistic regression 2) Multi-nominal logistic regression 3) Ordinal logistic regression.
+
+Let us consider a simple example where a cake manufacturer wants to find out if baking a cake at 160’C, 180’C and 200’C will produce a ‘hard’ or ‘soft’ variety of cake (assuming the fact that the bakery sells both the varieties of cake with different names and prices). Logistic regression is a perfect fit in this scenario instead of other statistical techniques. For example, if the manufactures produces 2 cake batches wherein the first batch contains 20 cakes (of which 7 were hard and 13 were soft) and the second batch of cake produced consisted of 80 cakes (of which 41 were hard and 39 were soft cakes). Here in this case if linear regression algorithm is used it will give equal importance both the batches of cakes regardless of the number of cakes in each batch. Applying a logistic regression algorithm will consider this factor and give the second batch of cakes more weightage than the first batch.
+
+Logistic regression algorithms is also best suited when the need is to classify elements two categories based on the explanatory variable. For example-classify females into ‘young’ or ‘old’ group based on their age.
+
+source: https://www.dezyre.com/article/top-10-machine-learning-algorithms/202
